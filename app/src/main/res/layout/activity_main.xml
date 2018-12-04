@@ -12,31 +12,33 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="364dp"
-        android:layout_height="45dp"
+        android:layout_width="97dp"
+        android:layout_height="57dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
         android:gravity="center_horizontal"
         android:text="@string/title_highlight"
-        android:textColor="@color/colorAccent"
+        android:textColor="#7f8c8d"
         android:textSize="31sp"
         android:textStyle="bold"
         android:typeface="serif" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="73dp"
-        android:layout_height="79dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="184dp"
-        android:contentDescription="@string/imagedescription"
-        app:srcCompat="@drawable/blog_icon" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="-6dp"
+        android:text="@string/title"
+        android:textSize="35sp" />
 
     <ImageView
         android:id="@+id/imageView"
